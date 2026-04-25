@@ -13,10 +13,7 @@ test('Click Make Appointment and verify the url', async ({page}) => {
     await usernameField.fill("John Doe");
     await passwordField.fill("ThisIsNotAPassword");
     await loginButton.click();
-    await expect(page).toHaveURL("https://katalon-demo-cura.herokuapp.com/#appointment");
-
-
-    
+    await expect(page).toHaveURL("https://katalon-demo-cura.herokuapp.com/#appointment");  
     
 
 });
