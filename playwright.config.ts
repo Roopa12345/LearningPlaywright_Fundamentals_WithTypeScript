@@ -20,9 +20,10 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  // workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: [['html'], ["allure-playwright"], ['./utils/CustomTTAReporter.ts']],
+  // reporter: [['html'], ["allure-playwright"], ['./utils/CustomTTAReporter.ts']],
+  reporter: [['html']], 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
@@ -35,7 +36,7 @@ export default defineConfig({
     headless: false,
 
     /* Full HD (1920x1080) maximized viewport */
-    viewport: { width: 1920, height: 1080 },
+    // viewport: { width: 1920, height: 1080 },
   },
 
   /* Configure projects for major browsers */
@@ -45,7 +46,7 @@ export default defineConfig({
       use: {
         ...devices['Desktop Chrome'],
         /* Override device viewport with Full HD */
-        viewport: { width: 1920, height: 1080 },
+        // viewport: { width: 1920, height: 1080 },
       },
     },
 
