@@ -1,6 +1,7 @@
 {
   "name": "learningplaywrightfundamentals",
   "version": "1.0.0",
+  
   "main": "index.js",
   "scripts": {
     "go": "bash go.sh",
@@ -13,10 +14,23 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A hands-on project for learning Playwright test automation fundamentals with TypeScript.",
   "devDependencies": {
     "@playwright/test": "^1.59.1",
     "@types/node": "^25.6.0",
-    "allure-playwright": "^3.7.1"
-  }
+    "allure-playwright": "^3.7.1",
+    "typescript": "^6.0.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PramodDutta/LearningPlaywrightFundamentals.git"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/PramodDutta/LearningPlaywrightFundamentals/issues"
+  },
+  "homepage": "https://github.com/PramodDutta/LearningPlaywrightFundamentals#readme"
 }

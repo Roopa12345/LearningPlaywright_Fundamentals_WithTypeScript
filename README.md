@@ -756,7 +756,9 @@ flowchart TD
 
 - 📘 [Playwright Documentation](https://playwright.dev/docs/intro)
 - 📗 [Playwright API Reference](https://playwright.dev/docs/api/class-playwright)
-- 📙 [Allure for Playwright](https://www.npmjs.com/package/allure-playwright)
+#   L e a r n i n g P l a y w r i g h t _ F u n d a m e n t a l s _ W i t h T y p e S c r i p t 
+ 
+ - 📙 [Allure for Playwright](https://www.npmjs.com/package/allure-playwright)
 - 🎓 [The Testing Academy](https://thetestingacademy.com)
 - 💬 Issues / questions → open a GitHub Issue or email **thetestingacademy@gmail.com**
 
